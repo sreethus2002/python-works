@@ -1,0 +1,99 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Playpen+Sans:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+
+}
+.main-head{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playpen Sans', cursive; 
+    
+}
+.row-one{
+    margin-top: 20px;
+    width: 50%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.col{
+    width: 16%;
+    height: 500x;
+    float: left;
+    margin-left:10px ;
+}
+.row-one .col:nth-child(1){
+    background-color: gray;
+
+}
+.row-one .col:nth-child(2){
+    background-color: aquamarine;
+}
+.row-one .col:nth-child(3){
+    background-color: lightgreen;
+}
+.row-one  .col:nth-child(4){
+    background-color: darkolivegreen;
+}
+.row-one .col:nth-child(5){
+    background-color: beige;
+}
+.row-two{
+    margin-top:1px ;
+    width: 70%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.col{
+    width: 10%;
+    height: 100px;
+    float: left;
+    margin-bottom: 10px;
+}
+.row-two .col:nth-child(1){
+    background-color: orangered
+
+}
+.row-two .col:nth-child(2){
+    background-color: lightsalmon;
+
+}
+.row-two .col:nth-child(3){
+    background-color: lightslategray;
+}
+.row-two .col:nth-child(4){
+    background-color: lightskyblue;
+}
+.row-two .col:nth-child(5){
+    background-color: violet;
+}
+.row-two .col:nth-child(6){
+    background-color: yellow;
+}
+.row-two .col:nth-child(7){
+    background-color: blue;
+}
+.row-three{
+    margin-top:1px ;
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.col{
+    width: 6%;
+    height: 100px;
+    float: left;
+    margin-bottom: 10px;
+}
+.row-three.col:nth-child(1){
+    background-color: orangered

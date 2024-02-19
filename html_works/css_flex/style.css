@@ -1,0 +1,30 @@
+.parent{
+    width: 80%;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: flex-end;
+    align-items: center;
+}
+.child{
+    width: 20%;
+    height: 200px;
+    
+}
+.parent .child:nth-child(1){
+    background-color: red;
+}
+.parent .child:nth-child(2){
+    background-color:green ;
+}
+.parent .child:nth-child(3){
+    background-color:blue;
+}
+.parent .child:nth-child(4){
+    background-color:violet;
+}
+

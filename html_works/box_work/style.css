@@ -1,0 +1,21 @@
+.parent{
+    /* px */
+    width: 800px;
+    height: 600px;
+    background-color: cadetblue;
+    border: 1px solid black;
+
+
+
+}
+.child{
+    width: 400px;
+    height: 149px;
+    border:1px solid black;
+}
+.bg-success{
+    background-color: green;
+}
+.bg-warning{
+    background-color: yellow;
+}

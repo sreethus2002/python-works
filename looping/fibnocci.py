@@ -1,0 +1,10 @@
+i=1
+prev=0
+current=1
+print(prev,current)
+while(i<=10):
+    next=prev+current
+    print(next)
+    prev=current
+    current=next
+    i=i+1

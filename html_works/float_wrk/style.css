@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+.row{
+    width: 100%;
+    background-color: blueviolet;
+    height: 400px;
+}
+.col{
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 3%;
+    margin-top: 150px ;
+
+}
+.row .col:nth-child(1){
+    background-color: red;
+}
+.row .col:nth-child(2){
+    background-color: green;
+}
+.row .col:nth-child(3){
+    background-color:blue;
+}

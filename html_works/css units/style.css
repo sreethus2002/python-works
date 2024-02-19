@@ -1,0 +1,12 @@
+
+
+.row{
+    width: 800px;
+    height: 400px;
+    background-color: aqua;
+}
+.col{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}

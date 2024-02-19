@@ -1,0 +1,7 @@
+print() =>display message in
+print("msg",end="\n)
+all utility class and fns  defined in bulitins.py
+def(),return
+input() =>reda value from console
+*type() =>return data type of object
+range(start,end,step) => eg range(1,4)=>(1,2,3),range(1,6,2)=>(1,5,3)

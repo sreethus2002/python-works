@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.row{
+    width: 80%;
+    min-height: 500px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+.col{
+    width: 30%;
+   min-height: 400px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+.card-header{
+    background-color: grey;
+    color: white;
+    padding: 20px;
+}
+.card-image img{
+    width: 100%;
+    height: 400px;
+}
+.card-title{
+    padding: 20px;
+    text-align: center;
+
+}
+.card-body ul{
+    list-style: none;
+    line-height: 30px;
+    margin-left: 60px;
+
+}
+.card-body ul li i{
+    color: red;
+}
+.card-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom:20px ;
+}
+.card-btn{
+    border:1px solid black ;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}

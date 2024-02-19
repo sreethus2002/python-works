@@ -1,0 +1,9 @@
+body{
+    height: 100vh;
+    background-color: blue;
+    background-image: linear-gradient();
+}
+.section{
+    width: 40%;
+    height: 80%;
+}
